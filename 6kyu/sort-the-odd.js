@@ -19,6 +19,7 @@ function sortArray(array) {
   // Step 3
   oddArray.sort((a, b) => a - b)
   for (let j = 0; j < array.length; j++) {
+  // Step 4
     if (array[j] % 2 === 0) {
       oddArray.splice(j, 0, array[j])
     }
