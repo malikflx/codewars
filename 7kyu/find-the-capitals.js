@@ -25,3 +25,4 @@ var capitals = function (word) {
 // Test Cases
 console.log(capitals("EnGiNeEr"));
 console.log(capitals("DeVeLoPeR"));
+console.log(capitals("SoFtWaRe"));
